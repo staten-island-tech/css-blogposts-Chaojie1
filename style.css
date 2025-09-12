@@ -16,29 +16,21 @@ html,
     height: 300px;
 }
 #a {
-    background-color: red;
+    background-color: rgb(255, 143, 143);
 }
-
+.fruit:hover {
+    transition: all 0.45s ease-out ;
+    height: 340;
+    width: 340;
+}
 #p {
-    background-color: green;
+    background-color: rgb(73, 139, 73);
 }
 #b {
-    background-color: yellow;
-}
-.backgroundfruit {
-    z-index: -1;
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border: 5px solid black;
-}
-#bb {
-    top: 1350px;
-    left: 37%;
+    background-color: rgb(255, 255, 128);
 }
 .text {
     margin: 15px;
-    margin-top: 150px;
     font-family: cursive;
     font-size: 50px;
     align-items: center;
@@ -47,5 +39,19 @@ body {
     background-color: bisque;
 }
 .container {
+    margin: 50px;
     padding: 20px;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-size: 100px;
+    font-family: cursive;
+}
+.price {
+    font-size: 30px;
+    font-family: cursive;
+}
+.fruit:active {
+    transition: all 0.45s ease-out ;
+    rotate: 360deg;
 }
