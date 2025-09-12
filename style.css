@@ -10,7 +10,8 @@ html,
     justify-content: center;
     align-content: center;
 }
-.fruit {    
+.fruit {   
+    transition: all 0.25s ease-out ;
     position: relative;
     width: 300px;
     height: 300px;
@@ -33,7 +34,7 @@ html,
     margin: 15px;
     font-family: cursive;
     font-size: 50px;
-    align-items: center;
+    justify-content: center;
 }
 body {
     background-color: bisque;
@@ -52,6 +53,6 @@ h1 {
     font-family: cursive;
 }
 .fruit:active {
-    transition: all 0.45s ease-out ;
+    transition: all 0.25s ease-out ;
     rotate: 360deg;
 }
