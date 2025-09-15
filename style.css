@@ -15,14 +15,10 @@ html,
     position: relative;
     width: 300px;
     height: 300px;
+    rotate: 0deg;
 }
 #a {
     background-color: rgb(255, 143, 143);
-}
-.fruit:hover {
-    transition: all 0.45s ease-out ;
-    height: 340;
-    width: 340;
 }
 #p {
     background-color: rgb(73, 139, 73);
