@@ -32,12 +32,16 @@ html,
 }
 .text {
     margin: 15px;
-    font-family: cursive;
     font-size: 50px;
     justify-content: center;
 }
 body {
     background-color: bisque;
+    
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
 }
 .container {
     margin: 50px;
@@ -46,13 +50,16 @@ body {
 }
 h1 {
     font-size: 100px;
-    font-family: cursive;
 }
 .price {
     font-size: 30px;
-    font-family: cursive;
 }
 .fruit:active {
     transition: all 0.25s ease-out ;
     rotate: 360deg;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
